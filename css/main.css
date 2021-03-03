@@ -1,0 +1,23 @@
+@import "typography.css";
+
+body {
+    height: calc(100vh - 3rem);
+    overflow: auto;
+    margin: 0;
+    border: 0;
+    padding: 1.5rem 2.5rem;
+}
+
+:root {
+    --white: #FFFFFF;
+    --red: #C12D18;
+    --yellow: #E9B425;
+    --black: #222222;
+    --gray: #E0E0E0;
+
+    --black-gradient-top: #33383D;
+    --black-gradient-bottom: #1C1D20;
+
+    --orange-gradient-left: #FF2D04;
+    --orange-gradient-right: #C13216;
+}
