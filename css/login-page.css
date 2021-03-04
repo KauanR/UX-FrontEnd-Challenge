@@ -1,4 +1,22 @@
+/* STYLES GERAIS DA PÁGINA */
 body {
-    background: rgb(51,56,61);
-    background: linear-gradient(180deg, rgba(51,56,61,1) 0%, rgba(28,29,32,1) 100%)
+    height: 100vh;
+    display: flex;
 }
+
+section#form,
+section#picture {
+    flex: 50%;
+    padding: 1.5rem 2.5rem;
+}
+
+section#form {
+    background: linear-gradient(180deg, var(--black-gradient-top) 0%, var(--black-gradient-bottom) 100%);
+}
+
+section#picture {
+    background-image: url('../assets/images/notebook.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

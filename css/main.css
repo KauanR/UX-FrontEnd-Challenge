@@ -1,11 +1,10 @@
 @import "typography.css";
 
 body {
-    height: calc(100vh - 3rem);
-    overflow: auto;
     margin: 0;
     border: 0;
-    padding: 1.5rem 2.5rem;
+    height: 100vh;
+    overflow: auto;
 }
 
 :root {
