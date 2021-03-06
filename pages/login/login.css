@@ -1,0 +1,75 @@
+/* STYLES GERAIS DA PÁGINA */
+body {
+    display: flex;
+    color: var(--gray);
+}
+
+section#form,
+section#picture {
+    flex: 50%;
+    padding: 2.1875rem 2.5rem;
+    background: linear-gradient(180deg, var(--black-gradient-top) 0%, var(--black-gradient-bottom) 100%);
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* STYLES DA SECTION PICTURE */
+section#picture > img.background-picture {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1000;
+}
+
+section#picture > div:first-of-type {
+    display: flex;
+    justify-content: center;
+    z-index: 1001;
+}
+
+section#picture > div:first-of-type > img {
+    z-index: inherit;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* STYLES DA SECTION FORM */
+section#form {
+    padding: 12.5rem 2.5rem;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    grid-template-rows: auto;
+}
+
+@media (min-width: 1366px) {
+    section#form {
+        grid-template-columns: 60%;
+    }
+}
+
+@media (min-width: 1440px) {
+    section#form {
+        grid-template-columns: 55%;
+    }
+}
+
+@media (min-width: 1536px) {
+    section#form {
+        grid-template-columns: 50%;
+    }
+}
+
+@media (min-width: 1920px) {
+    section#form {
+        grid-template-columns: 45%;
+    }
+}
+
+form {
+    display: grid;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
