@@ -4,6 +4,56 @@
             url('../assets/fonts/mark-pro-bold.woff2') format('woff2');
 }
 
-body {
+body, input, button {
     font-family: 'Mark Pro', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
 }
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+/* 144 */
+h1 {
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 11.5rem;
+}
+
+/* 64 */
+h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5.0625rem;
+}
+
+/* 60 */
+h3 {
+    font-weight: normal;
+    font-size: 3.75rem;
+    line-height: 4.75rem;
+}
+
+/* 48 */
+h4 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.8125rem;
+}
+
+/* 30 */
+h5 {
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+}
+
+/* 24 */
+h6 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
