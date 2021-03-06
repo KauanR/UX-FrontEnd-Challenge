@@ -1,0 +1,13 @@
+input {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var( --white);
+    border-radius: 3.125rem;
+    padding: 1.25rem;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid;
+    filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.021));
+}
