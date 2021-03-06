@@ -1,0 +1,12 @@
+button {
+    border: 0;
+    padding: 0;
+}
+
+button.btn-red-cta {
+    color: var(--white);
+    background: linear-gradient(90deg, var(--orange-gradient-left), var(--orange-gradient-right) 100%);
+    border-radius: 3.125rem;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
+    padding: 1.4375rem 0;
+}
