@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="../../css/main.css">
         <link rel="stylesheet" href="./login.css">
+        <script src="./login.js" async></script>
         <title>UX Challenge</title>
     </head>
     <body>
@@ -25,9 +26,12 @@
                         <input type="password" placeholder="Senha" id="password" name="password">
                     </label>
 
-                    <div></div>
+                    <div id="error-message" class="hidden">
+                        <span>Ops, usuário ou senha inválidos.</span>
+                        <span>Tente novamente!</span>
+                    </div>
 
-                    <button class="btn-red-cta">
+                    <button class="btn-red-cta" id="submit-btn">
                         Continuar
                     </button>
                 </form>

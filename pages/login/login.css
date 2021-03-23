@@ -97,5 +97,16 @@ label#password-label:before {
     background: url('../../assets/svg/lock.svg') center / contain no-repeat;
 }
 
+div#error-message {
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+div.hidden {
+    visibility: hidden;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 

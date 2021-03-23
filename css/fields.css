@@ -11,3 +11,7 @@ input:focus {
     border: 2px solid;
     filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.021));
 }
+
+input.invalid {
+    border-color: var(--yellow);
+}
