@@ -36,7 +36,7 @@ section#picture > div:first-of-type > img {
 
 /* STYLES DA SECTION FORM */
 section#form {
-    padding: 12.5rem 2.5rem;
+    padding: 2.5rem;
     display: grid;
     grid-template-columns: 50%;
     justify-content: center;
@@ -69,6 +69,32 @@ section#form {
 
 form {
     display: grid;
+    row-gap: 2rem;
+}
+
+label {
+    position: relative;
+}
+
+label > input {
+    width: -webkit-fill-available;
+}
+
+label:before {
+    content: "";
+    position: absolute;
+    right: 1.25rem;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+}
+
+label#user-label:before {
+    background: url('../../assets/svg/user.svg') center / contain no-repeat;
+}
+
+label#password-label:before {
+    background: url('../../assets/svg/lock.svg') center / contain no-repeat;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
