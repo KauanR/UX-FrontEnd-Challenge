@@ -1,3 +1,52 @@
+/* STYLES DO HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1.5625rem 2.5rem;
+    width: -webkit-fill-available;
+}
+
+div.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div#hour-content {
+    display: grid;
+    justify-content: center;
+}
+
+div#hour-content > h1 {
+    font-weight: bold;
+}
+
+div#hour-content > * {
+    text-align: center;
+}
+
+div#weather-content {
+    display: grid;
+}
+
+div#weather-content > span {
+    text-align: end;
+}
+
+div#weather-content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#weather-content img {
+    margin: 0 0.5rem 0.5rem 0.5rem;;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 /* STYLES DO FOOTER */
 footer {
     position: fixed;
