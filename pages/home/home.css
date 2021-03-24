@@ -1,0 +1,75 @@
+/* STYLES DO FOOTER */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: -webkit-fill-available;
+    height: 6.25rem;
+    background: linear-gradient(90.16deg, var(--black-gradient-top) 0%, var(--black-gradient-bottom) 100%);
+    color: var(--white);
+}
+
+div.footer-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 100%;
+}
+
+div#explanation {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-right: 1px solid var(--white);
+    text-align: end;
+}
+
+div#content {
+    grid-template-columns: 64% 18% 18%;
+    display: grid;
+}
+
+div#content > div#sec-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#content > div#sec-counter > span {
+    text-align: end;
+    margin-right: 2rem;
+}
+
+div#content > div#sec-counter > div {
+    display: grid;
+    justify-content: center;
+    width: 5rem;
+}
+
+div#content > div#sec-counter > div > h4 {
+    line-height: 3rem;
+}
+
+div#content > div#sec-counter > div > h4,
+div#content > div#sec-counter > div > span {
+    text-align: center;
+}
+
+div#content > div#continue-btn,
+div#content > div#logout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+div#content > div#continue-btn {
+    background-color: var(--white);
+    color: var(--red);
+}
+
+div#content > div#logout-btn > small {
+    font-weight: bold;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
