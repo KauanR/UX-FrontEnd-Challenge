@@ -15,6 +15,4 @@ document.getElementById('submit-btn').addEventListener('click', event => {
         PASSWORD.classList.add('invalid')
         ERROR_MESSAGE.classList.remove('hidden')
     }
-
-    console.log(window.location)
 })
