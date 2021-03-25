@@ -1,7 +1,9 @@
-Desktop 4 - 1920 x 1080
+Desktop 5 - 1920 x 1080
 
-Desktop 3 - 1536 x 864
+Desktop 4 - 1536 x 864
 
-Desktop 2 - 1440 x 900
+Desktop 3 - 1440 x 900
 
-Desktop 1 - 1366 x 768
+Desktop 2 - 1366 x 768
+
+Desktop 1 - 1280 x 720
