@@ -45,7 +45,9 @@ function refreshHour() {
     const HOUR_DISPLAY = document.getElementById('hour-display')
     const DAY_DISPLAY = document.getElementById('day-display')
 
-    HOUR_DISPLAY.innerText = `${DATE.getHours()}:${DATE.getMinutes()}`
+    const FORMATTED_HOURS = DATE.getHours().toString().length === 1 ? '0' + DATE.getHours() : DATE.getHours()
+    const FORMATTED_MINUTES = DATE.getMinutes().toString().length === 1 ? '0' + DATE.getMinutes() : DATE.getMinutes()
+    HOUR_DISPLAY.innerText = `${FORMATTED_HOURS}:${FORMATTED_MINUTES}`
 
     DAY_DISPLAY.innerText = `${DAYS_OF_THE_WEEK[DATE.getDay()]}, ${DATE.getUTCDate()} de ${MONTHS[DATE.getUTCMonth()]} de ${DATE.getUTCFullYear()}`
 }
