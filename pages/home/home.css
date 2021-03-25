@@ -47,6 +47,63 @@ div#weather-content img {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+/* STYLES DO MAIN */
+main > img {
+    position: fixed;
+    left: 0;
+    height: auto;
+    width: 30%;
+    bottom: 2rem;
+}
+
+main > div {
+    width: fit-content;
+    position: fixed;
+    right: 8.375rem;
+    text-align: end;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main > div > .red-text {
+    color: var(--red);
+    font-weight: bold;
+}
+
+@media (min-width: 1280px) {
+    main > div.large-screen,
+    main > div.medium-screen {
+        display: none;
+    }
+
+    main > div.small-screen {
+        display: block;
+    }
+}
+
+@media (min-width: 1536px) {
+    main > div.large-screen,
+    main > div.small-screen {
+        display: none;
+    }
+
+    main > div.medium-screen {
+        display: block;
+    }
+}
+
+@media (min-width: 1920px) {
+    main > div.medium-screen,
+    main > div.small-screen {
+        display: none;
+    }
+
+    main > div.large-screen {
+        display: block;
+    }
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 /* STYLES DO FOOTER */
 footer {
     position: fixed;
@@ -117,7 +174,8 @@ div#content > div#continue-btn {
     color: var(--red);
 }
 
-div#content > div#logout-btn > small {
+div#content > div#logout-btn > small,
+div#content > div#continue-btn > small {
     font-weight: bold;
 }
 
