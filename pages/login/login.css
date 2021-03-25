@@ -51,6 +51,12 @@ section#form > div.form-wrap {
     margin: auto 0;
 }
 
+@media (min-width: 1280px) {
+    section#form {
+        grid-template-columns: 65%;
+    }
+}
+
 @media (min-width: 1366px) {
     section#form {
         grid-template-columns: 60%;
