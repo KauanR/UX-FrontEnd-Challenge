@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     padding: 1.5625rem 2.5rem;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 div.header-container {
@@ -109,7 +109,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: -webkit-fill-available;
+    width: 100%;
     height: 6.25rem;
     background: linear-gradient(90.16deg, var(--black-gradient-top) 0%, var(--black-gradient-bottom) 100%);
     color: var(--white);

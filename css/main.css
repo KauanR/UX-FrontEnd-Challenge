@@ -10,6 +10,10 @@ body {
     overflow: auto;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --white: #FFFFFF;
     --red: #C12D18;
